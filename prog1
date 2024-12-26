@@ -1,0 +1,17 @@
+num = int(input ("Enter the number =
+digit int(input ("Enterthe digit = "))
+temp =num
+rev = 0
+count = 0
+while num>0:
+rem = num %10
+if rem == digit:
+count= cOunt +1
+rev - rev10+rem
+num = num10
+print(The digit",digit ,"has occured", count,"time in",temp)
+
+
+Enter the number = 1234
+Enter the digit = 4
+The digit 4 has occured 1 time in 1234
