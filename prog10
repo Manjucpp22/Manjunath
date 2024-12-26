@@ -1,0 +1,8 @@
+import os
+import shutil
+input_folder = input("Enter the Folder name: ")
+if not os.path.exists (input_folder):
+    print("Error: Folder does not exist..")
+else:
+    shutil.make_archive("Output_Holder','zip',input_folder)
+    print ("Zip Folder createdsuccessfully" )
