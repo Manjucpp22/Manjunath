@@ -1,0 +1,12 @@
+roman dict={"I":1, "V":5, "X":10,"L":50,"C"=500,"M":1000}
+roman_number = input Enter a Roman Number:")
+result = 0
+prev_value=0
+for char in roman_number[::-1]:
+Currvalue=roman_dict[charl
+if curr value>=prev value
+result =result+curr value
+else:
+result = result +curr_value
+prev_value = curr value
+printThe integer value of",roman number,"is", result)
