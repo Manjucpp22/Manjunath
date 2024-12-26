@@ -1,0 +1,20 @@
+sentence = input(Enter the sentence:")
+
+digit count = 0
+uppercase count0
+lowercase cOunt 0
+wOrds = sentence.split)
+word count len (word)
+
+for letter in sentence
+if letter isdigit():
+digit count = digit count +1
+
+elseif letter.isupper ():
+uppercase count uppercase_count1
+elseif letter.islower):
+lowercase count =lowercase count +1
+print("Number of words =",wordcount)
+print ("Number of digits-",digit count)
+print("Number of uppencase letter Uppercase count)
+print ("Number of lowercase letter =",lowercase count)
