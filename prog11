@@ -1,0 +1,33 @@
+class PalindromeChecker:!
+    def palindrome( self,input_value):
+        pas5
+        
+Class StringPal(PalindromeChecker):
+    def palindrome(self,nput_value):
+        return input_value input_value[::-1]
+        
+Class IntegerPal(PalindromeChecker):
+    def palindrome(self,input_value ):
+        input_str=str(input_value)
+        return input_str=input_str [::-1]
+        
+input_str= input("Efnter # string:")
+
+string_checker=StringPal()
+
+if string_checker.palindrome input_str):
+    print("The input string is a palindrome.")
+else
+    print("The input string is not palindrome.")
+    
+print()
+
+input_num=int(input("Enter Integer:"))
+
+integer_checker=IntegerPal()
+
+if integer_checker.palindrome(input_num) :
+    print("The input integeris a palindrome.")
+
+else:
+    print("The input integen is not palindrame.")
