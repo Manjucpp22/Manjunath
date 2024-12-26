@@ -1,0 +1,35 @@
+def Fib(n):
+if n==8:
+return
+elif n==l:
+return 1
+else:
+return Eib(n-1)+Fib(n-2))
+N=int input"Enter the value of N"))
+1f(N<=0):
+printPlease enter the number greater then zero)
+else:
+Drint*Fibonacci Sequence:)
+for i in range(0,N)
+print Fib{i))
+def DecToBin (decimal):
+binary=bin(decimal)
+print(""Binary Equivalent -", binary)
+
+def DecToOct(decimal):
+octal =oct(decimal)
+print("Octal Equivalent =", octal)
+
+def DecToHex( decimal):
+HexaDec=hex(decimal)
+print("Hexadecimal Equivalent =",HexaDec)
+decimal = int (input("Enter the decimal number "))
+
+DecToBin (decimal)
+DecToOct (decimal)
+DecToHex(decimal)
+
+
+Enter the decimal number = 55
+Binary Equivalent = Ob110111
+Octal Equivalent = 0o67
