@@ -1,0 +1,12 @@
+import re
+url=input("Enter the URL:)
+pattern=r'(\d{4})/(\d{1,2})/(\d{1, 2})'
+match=re. search(pattern,url)
+
+if match:
+    year=match-group(1)
+    month=match.group(2)
+    day=match.group(3)
+    print ("Year:",year,"Month:"month,"Day:",day)
+else:
+  print("No date found in the URL).
