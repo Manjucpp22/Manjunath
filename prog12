@@ -1,0 +1,45 @@
+class Employee:
+    def employee_details (self, name, employee_id, department, salary):
+        self.name = name
+        self.employee_id = employee_id
+        self.department =department
+        self.salary = salary
+
+ def update_salary (self,department, new_salary):
+     if self.department == department :
+        self.salary = new_salary
+
+ 
+ employee1 = Employee ()
+ employee2 = Employee()
+ employee3 = Employee()
+
+
+ employee1 .employee_details ("Aman", 1001, "HR", 20000)
+ employee2.employee_details("Priti", 1002, "IT", 30000)
+ employee3.employee_details ("Sneha", 1003, "Finance", 40000)
+
+
+ print ("Employee details before salary update:")
+ for employee in [employeel, employee2, employee3 ]:
+     print("Employee ID: ",employee.employee_id)
+     print ("Name: ",employee.name)
+     print ("Department: ",employee.department)
+     print ("Salary: ",employee.salary)
+     print()
+
+
+ department = input("Enter the department name whose salary needs to be updated:")
+ new_salary = input ("Enter the salary to be updated: ")
+
+ for employee in [employee1, employee2, employee3] :
+     employee.update_salary (department, new_salary)
+
+ print()
+ print("Employee details after salary update:")
+ for employee in [employeel, employee2, employee3]:
+     print("Employee ID: ",employee.employee_id)
+     print("Name: ",employee.name) 
+     print("Department: ",employee.department)
+     print("Salary: ",employee.salary)
+     print()
